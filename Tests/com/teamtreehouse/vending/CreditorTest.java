@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 public class CreditorTest {
 
     private Creditor creditor;
-
     @Test
     public void addingFundsIncrementsAvailbleFunds () throws Exception {
       // Testing Triple As (AAA)
