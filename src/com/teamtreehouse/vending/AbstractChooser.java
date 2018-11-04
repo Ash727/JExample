@@ -1,9 +1,12 @@
 package com.teamtreehouse.vending;
 
+// abstract  means that the class must be extended
+// the abstract method must be over writtent when used with  a different class
 public abstract class AbstractChooser {
     private final int maxRows;
     private final int maxColumns;
 
+    // notice the inner class
     public class Location {
         private final int row;
         private final int column;

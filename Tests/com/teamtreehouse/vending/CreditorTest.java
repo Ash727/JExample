@@ -41,5 +41,6 @@ public class CreditorTest {
         // Assert
         assertEquals(10,refund);
         assertEquals(0, creditor.getAvailableFunds());
+
     }
 }
